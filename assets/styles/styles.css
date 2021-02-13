@@ -1,0 +1,141 @@
+/*colors to use: 
+background-color: #333940
+header-font-color: #E867ED
+top-gradient-color: #6B4875
+bottom-gradient-color: #A055A6
+*/
+
+:root {
+    --header-font: #28AFEA;
+    --background-color: #333940;
+    --border-color: #fff;
+    --card-title-font:23px;
+    --top-gradient: #05c5fc;
+    --bottom-gradient: #045d77;
+}
+
+/*------------------------------------------------------------------------------------*/
+/*/////////////////////////////////// HEADER classes /////////////////////////////////*/
+/*------------------------------------------------------------------------------------*/
+header{
+    margin: 20px auto;
+    padding: 20px;
+    text-align:center;
+    width:50%;
+    font-size:15px;
+}
+
+header h1 {
+    color: var(--header-font);
+    font-size: 2em;
+
+}
+
+header p {
+    color: white;
+    font-size:1em;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------------*/
+/*/////////////////////////////////// BODY classes /////////////////////////////////*/
+/*------------------------------------------------------------------------------------*/
+body {
+    background-color: var(--background-color);
+    margin: 0 auto;
+}
+/*------------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------------------------*/
+/*/////////////////////////////////// MAIN classes ///////////////////////////////////*/
+/*------------------------------------------------------------------------------------*/
+main {
+    padding:20px;
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*------------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------------------------*/
+/*/////////////////////////////////// CARD classes \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*------------------------------------------------------------------------------------*/
+.card {
+    border-color: var(--border-color);
+    border-style: dashed;
+    border-width: 2px;
+    padding:10px;
+    position: relative;
+    margin:20px;
+    width: 30%;
+    transition: box-shadow 500ms;
+     
+    
+}
+
+.card:hover {
+    box-shadow: 3px 3px 20px 5px #28AFEA;
+}
+
+.cardtitle {
+    color: var(--header-font);
+    border: var(--border-color) solid 1px;
+    border-radius: 7px;
+    text-align: start;
+    font-size: var(--card-title-font);
+    font-weight: bold;
+    padding:5px;
+    position: relative;
+    top: -29px;
+    width:100%;
+    background-color: var(--background-color);
+}
+
+.cardtitle:hover {
+    box-shadow: 3px 3px 10px 5px #df275b;
+}
+
+
+.cardsubtitle {
+    font-size:15px;
+    color:var(--header-font);
+    text-align: start;
+    position: relative;
+    top: -15px;
+}
+
+.card pre {
+    border-radius: 5px;
+    background-image:linear-gradient( var(--top-gradient) 0%, var(--bottom-gradient) 100%);
+    padding:20px;
+    text-align: start;   
+    color: white;
+    
+
+}
+}
+/*------------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------------------------*/
+/*/////////////////////////////////// FOOTER classes \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*------------------------------------------------------------------------------------*/
+footer {
+    margin: 20px auto;
+}
+
+footer h3 {
+    color: white;
+    text-align:center;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/*------------------------------------------------------------------------------------*/    
