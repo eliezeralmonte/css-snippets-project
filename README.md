@@ -1,2 +1,1 @@
-# CSS-Snippets-Project
-glowing dash bordered flexed project
+Live Link: https://eliezeralmonte.github.io/css-snippets-project/
